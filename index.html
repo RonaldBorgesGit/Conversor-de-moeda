@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/moeda.css">
+
+    <title>Conversor de Moeda</title>
+</head>
+
+<body>
+    <main>
+        <div class="opcao">
+            <p>Teste</p>
+            <h2>Valor a ser convertido</h2>
+            <input type="text" id="valor" name="valor" placeholder="Valor...">
+            <select id="moeda">
+                <option>Escolha uma opção</option>
+                <option class="real" value="1">Real</option>
+                <option class="dolar" value="2">Dolar</option>
+                <option class="euro" value="3">Euro</option>
+            </select>
+        </div>
+
+        <div class="opcao2">
+            <h2>Valor convertido</h2>
+            <input type="text" id="valor2" name="valor2" placeholder="Valor..."/>
+            <select id="moeda">
+                <option>Escolha uma opção</option>
+                <option class="real" value="1">Real</option>
+                <option class="dolar" value="2">Dolar</option>
+                <option class="euro" value="3">E uro</option>
+            </select> 
+        </div>
+        <button type="submit" id="btn"><img src="img/reload.png"></button>
+    </main>
+    <script src="moeda.js"></script>
+</body>
+
+</html>
